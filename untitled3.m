@@ -1,0 +1,14 @@
+[x,y]=meshgrid(-8:0.5:8);
+r=sqrt(x.*x+y.*y);z=sin(r)./(r+eps);
+subplot(2,2,1)
+meshc(x,y,z)
+title('马智博2502910129')
+subplot(2,2,2)
+meshz(x,y,z)
+title('马智博2502910129')
+subplot(2,2,3)
+surfc(x,y,z)
+title('马智博2502910129')
+subplot(2,2,4)
+surfc(x,y,z)
+title('马智博2502910129')
